@@ -2,18 +2,26 @@
 <html>
 <head>
   <title>Cars are Great</title>
+  <style>
+    .container {
+      width: 700;
+      margin: 0 auto;
+      /*position: absolute;*/
+    }
+  </style>
 </head>
 <body>
+<div class="container">
   <nav>
-    <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Contact</a></li>
+    <ul style="display: inline;">
+      <li style="display: inline-block"><a href="index.html">Home</a></li>
+      <li style="display: inline-block"><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
   
   <h1>Cars are Great</h1>
   <p>
-    <section>Cars are great.  Some reasons why they are great are 
+    <section id="firstSection">Cars are great.  Some reasons why they are great are
     <ul>
       <li>They smell good when they are new</li>
       <li>They keep you warm in the winter after a warm up</li>
@@ -21,23 +29,36 @@
     </ul>
     </section>
     
-    <section>Here are some pictures of some cars
+    <section id="secondSection">Here are some pictures of some cars
       <figure>
-        <img src="" alt="First Car Picture">
-        <figcaption><a href="" target="_blank">First Car</a></figcaption>
+        <img src="http://buyersguide.caranddriver.com/media/assets/submodel/6873.jpg" alt="First Car Picture" width=500>
+        <figcaption><a href="http://buyersguide.caranddriver.com/media/assets/submodel/6873.jpg" target="_blank">First Car</a></figcaption>
       </figure>
       
       <figure>
-        <img src="" alt="Second Car Picture">
-        <figcaption><a href="" target="_blank">First Car</a></figcaption>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUlHRUfU7fkzn6iFwT--hYXytqE_GrM0riJRWU1rygj2oKN_bZWw" alt="Second Car Picture" width=500>
+        <figcaption><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUlHRUfU7fkzn6iFwT--hYXytqE_GrM0riJRWU1rygj2oKN_bZWw" target="_blank">Second Car</a></figcaption>
       </figure>
       
       <figure>
-        <img src="" alt="Third Car Picture">
-        <figcaption><a href="" target="_blank">First Car</a></figcaption>
+        <img src="https://thenypost.files.wordpress.com/2017/04/170404-ferrari-banned-color-1.jpg?quality=90&strip=all&strip=all" alt="Third Car Picture" width=500>
+        <figcaption><a href="https://thenypost.files.wordpress.com/2017/04/170404-ferrari-banned-color-1.jpg?quality=90&strip=all&strip=all" alt="Third Car Picture" target="_blank">Third Car</a></figcaption>
       </figure>
     </section>
     
   </p>
+  
+  <section id="thirdSection">
+  <p>Here's a link to an outside site that likes cars too: 
+    <a href="http://auto.ferrari.com/en_US/" target="_blank">Ferrari Website</a></p>
+  <p>This car website is good because it is:
+    <ul>
+      <li>About Ferrari Cars</li>
+      <li>Talks about Ferraris</li>
+      <li>Ferraris</li>
+    </ul>
+  </p>
+  </section>
+</div>
 </body>
 </html>
