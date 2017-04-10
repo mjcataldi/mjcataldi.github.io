@@ -13,22 +13,23 @@
   
   <h1>Contact</h1>
   <p>If you would like to contact us, please fill out this form below
-  
-  <table>
-    <tr>
-      <th>Name</th>
-      <td><input type="text"></td>
-    </tr>
-    <tr>
-      <th>Email</th>
-      <td><input type="email"></td>
-    </tr>
-    <tr>
-      <th>Comments</th>
-      <td><input type="textbox" cols=4 rows=20></td>
-    </tr>
-  </table>
-
+  <form id="contactForm" name="contactForm" action="https://httpbin.org/post" method="post">
+    <table>
+      <tr>
+        <th>Name</th>
+        <td><input name="fullName" type="text"></td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td><input name="email" type="email"></td>
+      </tr>
+      <tr>
+        <th>Comments</th>
+        <td><textarea name="comments" cols=40 rows=5></textarea></td>
+      </tr>
+    </table>
+  <input type="submit" value="Submit">
+  </form>
   </p>
 </body>
 </html>
