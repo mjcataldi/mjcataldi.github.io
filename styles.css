@@ -1,8 +1,53 @@
 * {
-  background-color: blue;
+  /*background-color: blue;*/
 }
 
 .container {
-  width: 700;
+  width: 700px;
   margin: 0 auto;
+}
+
+ul {
+  padding: 5px;
+}
+
+img {
+  margin: 5px;
+  border: 1px black dotted;
+}
+
+footer {
+  text-align: center;
+}
+
+#thirdSection {
+  background: url("images/ferrari3.jpg") right top repeat-x;
+  background-size: 100%;
+  color: white;
+  text-shadow: 1px 1px black;
+  /*font-family: GlossBloom;*/
+}
+
+.new-style {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px){
+  body {
+    font-size: 75%;
+  }
+  
+  img {
+    width: 75%;
+  }
+}
+
+/*@font-face {*/
+/*  font-family: GlossBloom;*/
+/*  src: "fonts/gloss_and_bloom.ttf";*/
+/*}*/
+
+a:visited {
+  color: orange;
 }
